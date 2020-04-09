@@ -1,0 +1,9 @@
+.responsiveImage {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.gallery {
+    margin-top: 20px;
+}

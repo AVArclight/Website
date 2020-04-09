@@ -1,0 +1,84 @@
+#header > div {
+	width: 1300px;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	font-color: #000000;
+	position: right;
+	float: right;
+    margin-left: 30px;
+  margin-right: 30px;;
+}
+#header {
+	background-color: #FFFFFF;
+	height: 180px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;;
+	padding: 10px;
+}
+/** Logo **/
+.logo {
+	float: left;
+	height: 150px;
+	width: 250px;
+	position: left;
+	position: fixed; 
+	margin-top: 10px;
+}
+
+/**nav bar**/
+.topnav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: right;
+    float: right;
+    position: fixed;
+    display: inline-flex;
+    vertical-align: bottom;
+    opacity: 0.9;
+    margin-top: 15px;
+ }
+
+/* Style links inside the navigation bar */
+.topnav a {
+  position: center;
+  color: #000000;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+/* Changes color of links on hover */
+.topnav a:hover {
+  background-color: #F68121;
+  color: black;
+}
+
+/* Adds color to the active/current link */
+.topnav a.active {
+  background-color: #F68121;
+  color: white;
+}
+
+/* Right-aligned sections inside the top navigation */
+.topnav-right {
+  float: right;
+  position: right;
+}
+
+.design{
+  text-align: center;
+  font-family: "Oswald";
+  background-color: #F68121;
+  font-size: 50px;
+  top: 20px;
+  padding: 20px;
+}
+
+.dash{
+  margin: auto;
+}
+

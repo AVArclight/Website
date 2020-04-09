@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your room</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="book.css">
+</head>
+<body>
+    <header>
+        <!-- Just an image -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="lpu.png" width="250" height="100" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-item nav-link" href="file:///D:/Important%20Docs/One%20Drive/OneDrive/Desktop/Website/book/availability/profile.html">My Profile</a>
+                  <a class="nav-item nav-link" href="file:///D:/Important%20Docs/One%20Drive/OneDrive/Desktop/Website/book/availability/hostel.html">Hostel Availability</a>
+                  <a class="nav-item nav-link" href="file:///D:/Important%20Docs/One%20Drive/OneDrive/Desktop/Website/book/availability/apartment.html">Apartment Availability</a>
+                  <a class="nav-item nav-link" href="file:///D:/Important%20Docs/One%20Drive/OneDrive/Desktop/Website/contact/contact.html">Contact</a>
+                  <a class="nav-item nav-link" href="https://www.lpu.in/admission/Prospectus/Part_C/Residential_Transport_Laundry_and_Loan_facility.pdf">More details</a>
+                  <a class="nav-item nav-link" href="file:///D:/Important%20Docs/One%20Drive/OneDrive/Desktop/Website/home/LPU-Hostel%20Booking.html"><svg class="bi bi-house-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
+</svg></a>
+</div>
+                    </div>
+        </nav>
+    </header>
+
+<p class="design">
+	Book your room now...
+</p>
+<p>
+			<div class="main">
+        <div class="container">
+            <div class="signup-content">
+                
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="first_name" class="required">First name</label>
+                                    <input type="text" name="first_name" id="first_name" />
+                                </div>
+                               <div class="form-input">
+                                    <label for="last_name" class="required">Last name</label>
+                                    <input type="text" name="last_name" id="last_name" />
+                                </div>
+                               
+                                <div class="form-input">
+                                    <label for="company" class="required">Registration No</label>
+                                    <input type="text" name="company" id="company" />
+                                </div>
+                               <div class="form-input">
+                                    <label for="phone_number" class="required">Phone number</label>
+                                    <input type="text" name="phone_number" id="phone_number" />
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <div class="form-select">
+                                    <div class="label-flex">
+                                        <label for="meal_preference">meal preference</label>
+                                        <a href="#" class="form-link">Lunch detail</a>
+                                    </div>
+                                    <div class="select-list">
+                                        <select name="meal_preference" id="meal_preference">
+                                            <option value="Vegetarian">Vegetarian</option>
+                                            <option value="Kosher">Kosher</option>
+                                            <option value="Asian Vegetarian">Asian Vegetarian</option>
+                                        </select>
+                                    </div>
+                                </div>
+                          
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment">Payment Mode</label>
+                                        <a href="#" class="form-link">Payment Detail</a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cash" checked>
+                                            <label for="cash">Cash</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cheque">
+                                            <label for="cheque">Cheque</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="demand">
+                                            <label for="demand">Net-Banking</label>
+                                            <span class="check"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="form-input">
+                                    <label for="email" class="required">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Proceed to Book" class="submit" id="submit" name="submit" />
+                            <input type="submit" value="Reset" class="submit" id="reset" name="reset" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+    <script src="vendor/wnumb/wNumb.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
+    </p>
+</body>
+</html>
